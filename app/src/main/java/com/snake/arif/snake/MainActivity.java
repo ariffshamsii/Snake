@@ -18,5 +18,6 @@ public class MainActivity extends Activity {
         Constants.SCREEN_WIDTH = dm.widthPixels;
         Constants.SCREEN_HEIGHT = dm.heightPixels;
         setContentView(new GamePanel(this));
+		//start new code for adding mobile snake
     }
 }
